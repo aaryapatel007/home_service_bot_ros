@@ -19,12 +19,12 @@
 Created a `test_slam.sh` script file and launched it to manually test SLAM.  
 A functional map of the environment will be created which would be used for localization and navigation tasks.  
 ### Localization and Navigation  
-Created a `test_navigation.sh` script file to launch it for manual navigation test.  
+Created a `test_slam_myrobot.sh` script file to launch it for manual navigation test.  
 THe robot will be able to navigate in the environment after a 2D Nav Goal command is issued.  
-Created a `pick_objects.sh` file that will send multiple goals for the robot to reach.  
+Created a `pick_objects` node that will send multiple goals for the robot to reach.  
 The robot travels to the desired pickup zone, displays a message that it reached its destination, waits 5 seconds, travels to the desired drop off zone, and displays a message that it reached the drop off zone."  
 ### Home Service Functions  
-Created a `add_marker.sh` file that will publish a marker to rviz.  
+Created a `add_marker` node that will publish a marker to rviz.  
 The marker will initially be published at the pickup zone. After 5 seconds it should be hidden. Then after another 5 seconds it should appear at the drop off zone.
 Finally wrote a `home_service.sh` file that will run all the nodes in this project.  
 The home service robot will be simulated as follow:  
