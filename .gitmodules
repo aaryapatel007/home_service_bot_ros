@@ -2,5 +2,5 @@
 	path = teleop_twist_keyboard
 	url = https://github.com/ros-teleop/teleop_twist_keyboard.git
 [submodule "obstacle_avoidance"]
-	path = obstacle_avoidance
+	path = amcl_obstacle_avoidance_ros
 	url = https://github.com/aaryapatel007/amcl_obstacle_avoidance_ros
