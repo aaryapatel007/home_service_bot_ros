@@ -6,6 +6,7 @@
 1) Simulation setup for interfacing robot with different ROS packages, some of which are official ROS packages and others are packages that are created.
 
 2) Map the environment of the Gazebo world with slam gmapping (Patience required).
+3) Create a wall_follower node that autonomously drives the robot to map the environment.
 
 3) Localization and Navigation testing where the robot is instructed to go to the pick up and drop off zones in the Gazebo world. Localization is done by AMCL and Navigation trajectory is done by ROS Navigation stack, which is based on Dijkstra's. 
 4) Use DWA local planner to avoid real-time obstacles in the environment.
