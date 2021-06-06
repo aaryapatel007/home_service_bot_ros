@@ -8,6 +8,7 @@
 2) Map the environment of the Gazebo world with slam gmapping (Patience required).
 
 3) Localization and Navigation testing where the robot is instructed to go to the pick up and drop off zones in the Gazebo world. Localization is done by AMCL and Navigation trajectory is done by ROS Navigation stack, which is based on Dijkstra's. 
+4) Use DWA local planner to avoid real-time obstacles in the environment.
 
 4) Navigation Goal Node where a node is written that will communicate with the ROS Navigation stack and autonomously sending successive goals for the robot to reach. 
 
