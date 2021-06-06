@@ -3,4 +3,4 @@
 	url = https://github.com/ros-teleop/teleop_twist_keyboard.git
 [submodule "amcl_obstacle_avoidance_ros"]
 	path = amcl_obstacle_avoidance_ros
-	url = https://github.com/aaryapatel007/amcl_obstacle_avoidance_ros
+	url = https://github.com/aaryapatel007/amcl_obstacle_avoidance_ros.git
